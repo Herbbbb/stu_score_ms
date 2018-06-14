@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>check</servlet-name>
+    <servlet-class>servlet.check</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateMpassword</servlet-name>
+    <servlet-class>servlet.updateMpassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addstudent</servlet-name>
+    <servlet-class>servlet.addstudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delstudent</servlet-name>
+    <servlet-class>servlet.delstudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addstucourse</servlet-name>
+    <servlet-class>servlet.addstucourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addteacher</servlet-name>
+    <servlet-class>servlet.addteacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delteacher</servlet-name>
+    <servlet-class>servlet.delteacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addcourse</servlet-name>
+    <servlet-class>servlet.addcourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delcourse</servlet-name>
+    <servlet-class>servlet.delcourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateTpassword</servlet-name>
+    <servlet-class>servlet.updateTpassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addscore</servlet-name>
+    <servlet-class>servlet.addscore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatestudent</servlet-name>
+    <servlet-class>servlet.updatestudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatecourse</servlet-name>
+    <servlet-class>servlet.updatecourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateteacher</servlet-name>
+    <servlet-class>servlet.updateteacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectcourse</servlet-name>
+    <servlet-class>servlet.selectcourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatescore</servlet-name>
+    <servlet-class>servlet.updatescore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>m_selectcourse</servlet-name>
+    <servlet-class>servlet.m_selectcourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>m_updatescore</servlet-name>
+    <servlet-class>servlet.m_updatescore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delstucou</servlet-name>
+    <servlet-class>servlet.delstucou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>rankcourse</servlet-name>
+    <servlet-class>servlet.rankcourse</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>check</servlet-name>
+    <url-pattern>/servlet/check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateMpassword</servlet-name>
+    <url-pattern>/servlet/updateMpassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addstudent</servlet-name>
+    <url-pattern>/servlet/addstudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delstudent</servlet-name>
+    <url-pattern>/servlet/delstudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addstucourse</servlet-name>
+    <url-pattern>/servlet/addstucourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addteacher</servlet-name>
+    <url-pattern>/servlet/addteacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delteacher</servlet-name>
+    <url-pattern>/servlet/delteacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addcourse</servlet-name>
+    <url-pattern>/servlet/addcourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delcourse</servlet-name>
+    <url-pattern>/servlet/delcourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateTpassword</servlet-name>
+    <url-pattern>/servlet/updateTpassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addscore</servlet-name>
+    <url-pattern>/servlet/addscore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatestudent</servlet-name>
+    <url-pattern>/servlet/updatestudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatecourse</servlet-name>
+    <url-pattern>/servlet/updatecourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateteacher</servlet-name>
+    <url-pattern>/servlet/updateteacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectcourse</servlet-name>
+    <url-pattern>/servlet/selectcourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatescore</servlet-name>
+    <url-pattern>/servlet/updatescore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>m_selectcourse</servlet-name>
+    <url-pattern>/servlet/m_selectcourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>m_updatescore</servlet-name>
+    <url-pattern>/servlet/m_updatescore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delstucou</servlet-name>
+    <url-pattern>/servlet/delstucou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>rankcourse</servlet-name>
+    <url-pattern>/servlet/rankcourse</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
